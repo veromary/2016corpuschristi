@@ -1,0 +1,113 @@
+
+\newcounter{hymnNo}
+
+\newcommand\upnums[1]{{\addfontfeature{Numbers=Lining} #1}}
+
+\def\rubrics#1{{\centering \emph{#1} \par}}
+
+\def\heading#1{{\centering \textsc{\large #1}\par}}
+
+\newcommand\sidenote[1]{}
+
+\def\marginote#1{\marginpar{\textsf{%\footnotesize 
+                                      \scshape #1}}}
+
+\def\stand{\marginote{\vskip2pt Stand}}
+\def\sit{\marginote{\quad Sit}}
+\def\kneel{\marginote{Kneel}}
+\def\HMstand{\marginote{Sung\vskip-3pt Mass\vskip-3pt Stand}}
+\def\ringbell{\marginote{\includegraphics[width=5mm]{bell}}}
+\def\threebell{\marginote{\includegraphics[width=5mm]{bell}\includegraphics[width=5mm]{bell}\includegraphics[width=5mm]{bell}}}
+
+
+% my First Line
+% sets the width of the verse
+% indexes the first line
+
+\newcommand\FirstLine[1]{%\stepcounter{hymnNo}%
+    \firstlindex{#1}%
+    \settowidth{\versewidth}{#1}}
+
+\newcommand\newHymn{\refstepcounter{hymnNo}}
+
+\newcommand\fortranC[1]{{\rightline{\footnotesize{For translation, see
+#1}}}}
+\newcommand\fororigC[1]{{\rightline{\footnotesize{For original, see
+#1}}}}
+
+%\newcommand\pointtrans{\marginpar{\footnotesize Translation follows.}}%
+\newcommand\pointtrans{\marginpar{\raggedright\footnotesize For English see below.}}
+
+%\newcommand\pointorig{\marginpar{\footnotesize Original precedes.}}%
+\newcommand\pointorig{\marginpar{\raggedright\footnotesize For original see above.}}
+
+
+%\newcommand\fortranC[1]{{\small \centering [\textit{For translation, see #1}]}}
+
+%From the verse package:
+
+\renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
+\newcommand{\attrib}[1]{%
+   \nopagebreak{\raggedleft\footnotesize #1\par}}
+
+
+\grechangestaffsize{12}
+\grechangestyle{initial}{\fontsize{24}{24}\fontfamily{anavio}\selectfont}
+
+\renewcommand{\LettrineFontHook}{\anavio}
+
+
+\newcommand\initialV[2]{{\LARGE {%\fontencoding{T1}\fontfamily{anavio}\selectfont
+\anavio\textbf{#1}}\normalsize\textsc{#2}}}%
+
+\newcommand\FirstVerse[2]{%\stepcounter{hymnNo}%
+                 \hskip-\leftmargin\hskip\vindent%
+                 \makebox[0cm][l]{%
+		        \bfseries \huge\upnums{\thehymnNo}}%
+		 \hskip\leftmargin\hskip-\vindent\ignorespaces%
+		 {\initialV{#1}{#2}}}
+
+% my Hymn Title sets the title in small caps
+% and indexes the title
+% plus puts the hymn number in the left margin
+% for litanies
+
+\newcommand\HymnTitlesc[1]{%\stepcounter{hymnNo}%
+    \firstlindex{#1}%
+   \makebox[0cm][l]{%\fontfamily{fxl}\selectfont 
+                 \bfseries \huge\upnums{\thehymnNo}}%
+   \centerline{ \scshape #1} \vskip-5pt}
+
+\newcommand\HymnTitleit[1]{%\stepcounter{hymnNo}%
+    \firstlindex{#1}%
+   \makebox[0cm][l]{%\fontfamily{fxl}\selectfont 
+                 \bfseries \huge\upnums{\thehymnNo}}%
+   \centerline{ \itshape #1} \vskip-5pt}
+
+\newcommand\HymnTitleInVerse[1]{%
+    \firstlindex{#1}%
+   \hskip-\leftmargin\hskip\vindent%
+   \makebox[0cm][l]{%
+                  \bfseries \huge\upnums{\thehymnNo}}%
+   \hskip\leftmargin\hskip-\vindent\ignorespaces%
+   \makebox[\versewidth][c]{\itshape #1}\par }
+
+\newcommand\JustHymnNum{{%\fontfamily{fxl}\selectfont 
+\bfseries \huge\upnums{\thehymnNo}}\par\vskip-5pt}
+
+\newcommand\JustHymnNumInVerse{\hskip-\leftmargin\hskip\vindent%
+                 \makebox[0cm][l]{%
+		        \bfseries \huge\upnums{\thehymnNo}}%
+		 \hskip\leftmargin\hskip-\vindent\ignorespaces}
+
+\newcommand\Htitle[1]{\specialindex{sources}{hymnNo}{#1}}
+\newcommand\Hpoet[2]{\specialindex{sources}{hymnNo}{#1}\rightline{\footnotesize{#1, #2}}}
+\newcommand\Htrans[2]{\specialindex{sources}{hymnNo}{#1}\rightline{\footnotesize{Tr. #1, #2}}}
+\newcommand\Hmeter[1]{}%{\footnotesize #1}}
+\newcommand\Hsource[2]{}%{\footnotesize #1, #2}}
+\newcommand\Hnote[1]{\rightline{\footnotesize{#1}}}
+\newcommand\Hlnote[1]{{\raggedleft\footnotesize #1\par}}
+\newcommand\Hcopyright[2]{}
+\newcommand\Htune[1]{\rightline{\footnotesize{#1}}}
+
+
