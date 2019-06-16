@@ -1,7 +1,7 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.4.30)  16 JUN 2019 21:04
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.4.30)  16 JUN 2019 21:19
  restricted system commands enabled.
-**2016corpuschristi
-(./2016corpuschristi.tex
+**2019corpuschristi
+(./2019corpuschristi.tex
 LaTeX2e <2018-12-01>
 Lua module: luaotfload-main 2019-01-28 2.95 luaotfload entry point
 Lua module: luaotfload-init 2019-01-28 2.95 luaotfload submodule / initializatio
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.073 seconds
+luaotfload | main : initialization completed in 0.075 seconds
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docum
 ent class
@@ -833,35 +833,17 @@ Package fontspec Info: Font family 'Calluna-Semibold(0)' created for font
 luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : no font with id 45
-luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : no font with id 48
-luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : no font with id 48
-luaotfload | aux : font no 48 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : no font with id 48
 
-Package fontspec Info: Font family 'Priory(0)' created for font 'Priory' with
-(fontspec)             options [Ligatures=TeX].
+Package fontspec Info: Font family 'Priory.otf(0)' created for font
+(fontspec)             'Priory.otf' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Priory:mode=node;script=latn;language=DFLT;+tlig;"
+(fontspec)             <->"[Priory.otf]:mode=node;script=latn;language=DFLT;+tli
+g;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"Priory/B:mode=node;script=latn;language=DFLT;+tlig;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Priory/I:mode=node;script=latn;language=DFLT;+tlig;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"Priory/BI:mode=node;script=latn;language=DFLT;+tlig;"
-
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 
 Package fontspec Info: Could not resolve font "VectisBold/BI" (it probably
@@ -875,9 +857,9 @@ Package fontspec Info: Could not resolve font "VectisBold/B" (it probably
 Package fontspec Info: Could not resolve font "VectisBold/I" (it probably
 (fontspec)             doesn't exist).
 
-luaotfload | aux : font no 50 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 50
+luaotfload | aux : no font with id 47
 
 Package fontspec Info: Font family 'VectisBold(0)' created for font 'Vectis
 (fontspec)             Bold' with options [Ligatures=TeX].
@@ -922,10 +904,10 @@ T;+tlig;"
 (fontspec)             <->"LinuxLibertineO/BI:mode=node;script=latn;language=DFL
 T;+tlig;+smcp;"
 
-luaotfload | aux : font no 62 (nil) defines no feature for script latn
-luaotfload | aux : no font with id 62
-luaotfload | aux : font no 62 (nil) defines no feature for script dflt
-luaotfload | aux : no font with id 62
+luaotfload | aux : font no 59 (nil) defines no feature for script latn
+luaotfload | aux : no font with id 59
+luaotfload | aux : font no 59 (nil) defines no feature for script dflt
+luaotfload | aux : no font with id 59
 
 Package fontspec Info: Font family 'Versiculum(0)' created for font
 (fontspec)             'Versiculum' with options
@@ -1125,8 +1107,8 @@ Lua module: gregoriotex 2018/03/25 5.1.1 GregorioTeX module.
 Custom whatsit marker = 1
 Module gregoriotex Info: marker whatsit id is 1 on input line 131
 
-(2016corpuschristi.gaux)
-Module gregoriotex Info: Reading 2016corpuschristi.gaux on input line 135
+(2019corpuschristi.gaux)
+Module gregoriotex Info: Reading 2019corpuschristi.gaux on input line 135
 Inserting `gregoriotex.write_greaux' at position 1 in `finish_pdffile'.
 \gre@gaux=\write4
 \gre@read@temp=\read3
@@ -1295,28 +1277,394 @@ Module gregoriotex Info: Mapping font greciliae-hole on input line 998
 Module gregoriotex Info: Registering variant font greextra as gre@font@variant@D
 . on input line 53
 )
-(/usr/share/texmf-dist/tex/luatex/gregoriotex/gsp-default.tex
-! Interruption.
-\xs_reserved_A #1#2->#2
-                       
-l.177 ...m plus 0.0009 cm minus 0.0009 cm}{scalable}
-                                                  %
-? x
+(/usr/share/texmf-dist/tex/luatex/gregoriotex/gsp-default.tex)
+(/usr/share/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+(/usr/share/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count391
+)
 
+******************************************************
+Stock height and width: 597.50787pt by 421.10078pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 597.50787pt by 421.10078pt
+Text height and width: 487.00021pt by 250pt
+Spine and edge margins: 34.13391pt and 136.58263pt
+Upper and lower margins: 43.48755pt and 67.02011pt
+Headheight and headsep: 13.6pt and 10.88004pt
+Footskip: 27.20001pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 122.58263pt
+Sidecapsep and sidecapwidth: 7pt and 51pt
+Sidebarhsep and sidebarwidth: 7pt and 51pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 349.52011pt
+Sidefoothsep and sidefootwidth: 7pt and 51pt
+Sidefootvsep and sidefootheight: 13.6pt and 349.52011pt
+******************************************************
+
+(./conf-hymns.tex
+\c@hymnNo=\count392
+Module gregoriotex Info: greciliae-hollow : gre@font@variant@B : rescaling greci
+liae-hollow to 1200000 on input line 54
+Module gregoriotex Info: greciliae-hole : gre@font@variant@C : rescaling grecili
+ae-hole to 1200000 on input line 54
+Module gregoriotex Info: greciliae : gre@font@variant@A : rescaling greciliae to
+ 1200000 on input line 54
+)
+\firstlines@idxfile=\write5
+
+\openout5 = firstlines.idx
+
+Writing index file firstlines.idx 
+\sources@idxfile=\write6
+
+\openout6 = sources.idx
+Writing index file sources.idx 
+(./2019corpuschristi.aux)
+\openout1 = 2019corpuschristi.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 84.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 84.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 84.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 84.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 84.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 84.
+LaTeX Font Info:    Redeclaring math accent \check on input line 84.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 84.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 84.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Calluna(0)/m/n on input line 84.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Calluna(0)/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Calluna(0)/m/n --> TU/Calluna(0)/m/n on input line 84
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Calluna(0)/m/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Calluna(0)/bx/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/CallunaSans(0)/m/n on input line 84.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 84.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Calluna(0)/m/n --> TU/Calluna(0)/bx/n on input line 8
+4.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Calluna(0)/bx/it on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/CallunaSans(0)/bx/n on input line 8
+4.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 84.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count393
+\scratchdimen=\dimen331
+\scratchbox=\box99
+\nofMPsegments=\count394
+\nofMParguments=\count395
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count396
+\MPscratchDim=\dimen332
+\MPnumerator=\count397
+\makeMPintoPDFobject=\count398
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks29
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 122
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 122.
+
+Package fontspec Info: Could not resolve font "Calluna/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'Calluna(1)' created for font 'Calluna'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Numbers=Lining].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Calluna:mode=node;script=latn;language=DFLT;+tlig;+ln
+um;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Calluna:mode=node;script=latn;language=DFLT;+tlig;+ln
+um;+smcp;"
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"Calluna/B:mode=node;script=latn;language=DFLT;+tlig;+
+lnum;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
+(fontspec)             <->"Calluna/B:mode=node;script=latn;language=DFLT;+tlig;+
+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Calluna/I:mode=node;script=latn;language=DFLT;+tlig;+
+lnum;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
+(fontspec)             <->"Calluna/I:mode=node;script=latn;language=DFLT;+tlig;+
+lnum;+smcp;"
+
+
+
+LaTeX Font Warning: Font shape `TU/Priory.otf(0)/bx/n' undefined
+(Font)              using `TU/Priory.otf(0)/m/n' instead on input line 130.
+
+Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 146
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 146.
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 149
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 149.
+(./corpusChristi/PangeLingua.tex
+LaTeX Font Info:    Font shape `TU/Calluna(0)/m/sl' in size <10.95> not availabl
+e
+(Font)              Font shape `TU/Calluna(0)/m/it' tried instead on input line 
+17.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]) (./corpusChristi/SingMyTongue.tex [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+(./corpusChristi/JesusMyLord.tex
+Overfull \hbox (11.70528pt too wide) in paragraph at lines 15--17
+[]| | \TU/Calluna(0)/m/n/10.95 Oh, make us love Thee more and more.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+) [4]
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 186
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 186.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.6347pt (A);
+(lettrine.sty)             reported on input line 186.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 194
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 194.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 19.20657pt (V);
+(lettrine.sty)             reported on input line 194.
+Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 207
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 207.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.51639pt (I);
+(lettrine.sty)             reported on input line 207.
+Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 217
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 217.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.65443pt (P);
+(lettrine.sty)             reported on input line 217.
+ [5]
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 227
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 227.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 17.94453pt (O);
+(lettrine.sty)             reported on input line 227.
+Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 237
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 237.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.79247pt (J);
+(lettrine.sty)             reported on input line 237.
+Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 249
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 249.
+ (./gabc/salveregina-5_1_1.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+
+LaTeX Font Warning: Font shape `TU/Calluna(0)/bx/it' undefined
+(Font)              using `TU/Calluna(0)/bx/n' instead on input line 17.
+
+[6]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 255
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 255.
+Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 266
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 266.
+Package marginnote Info: Margin note 7.3 is on absolute page 7 on input line 270
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 270.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.79247pt (D);
+(lettrine.sty)             reported on input line 271.
+
+Overfull \hbox (1.05054pt too wide) in paragraph at lines 271--273
+\TU/Calluna(0)/m/n/10.95 mur. Per eun-dem Chri-stum Do-mi-num no-strum. Amen.
+ []
+
+Package marginnote Info: Margin note 7.4 is on absolute page 7 on input line 283
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 283.
+(./gabc/salvefesta-5_1_1.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'. [7]
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 294
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 294.
+ [8]
+Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 317
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 317.
+Package marginnote Info: Margin note 9.2 is on absolute page 9 on input line 324
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 324.
+Package marginnote Info: Margin note 9.3 is on absolute page 9 on input line 329
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 329.
+Package lettrine.sty Info: Targeted height = 18.91075pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 18.79247pt (D);
+(lettrine.sty)             reported on input line 332.
+ [9]
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 3
+63.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 363.
+Package marginnote Info: Margin note 10.2 is on absolute page 10 on input line 3
+68.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 368.
+
+Overfull \hbox (1.16557pt too wide) in paragraph at lines 368--369
+[]\TU/Calluna(0)/m/n/10.95 Laudáte Dóminum omnes gen-tes: * laudáte eum omne
+s
+ []
+
+Package marginnote Info: Margin note 10.3 is on absolute page 10 on input line 3
+71.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 371.
+Package marginnote Info: Margin note 10.4 is on absolute page 10 on input line 3
+77.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 377.
+Package marginnote Info: Margin note 10.5 is on absolute page 10 on input line 3
+85.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 385.
+(./corpusChristi/SoulOfMy.tex
+Overfull \hbox (3.97461pt too wide) in paragraph at lines 17--17
+[]\TU/Calluna(0)/m/n/10.95 In death’s dread mo-ments, make me only Thine; [] 
+
+ []
+
+) (./corpusChristi/OBreadofHeaven.tex [10]) (./corpusChristi/SweetSacrament.tex
+[11]) [12] (./2019corpuschristi.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+)
 
 Here is how much of LuaTeX's memory you used:
- 35759 strings out of 494383
- 100000,794899 words of node,token memory allocated 1128 words of node memory still in use:
-   3 hlist, 1 rule, 1 dir, 2 glue, 3 kern, 2 glyph, 7 attribute, 188 glue_spec, 
-7 attribute_list, 1 write, 1 user_defined, 1 pdf_colorstack nodes
-   avail lists: 2:7,3:3,5:1,7:2,8:1,9:1
- 39359 multiletter control sequences out of 65536+600000
- 66 fonts using 14018923 bytes
- 51i,1n,78p,618b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 36958 strings out of 494383
+ 244157,794899 words of node,token memory allocated
+ 93693 words of node memory still in use:
+   3154 hlist, 402 vlist, 1591 rule, 3 disc, 3 local_par, 1984 glue, 1992 kern, 
+396 penalty, 833 glyph, 7220 attribute, 215 glue_spec, 1218 attribute_list, 2 wr
+ite, 1 user_defined, 4 pdf_colorstack nodes
+   avail lists: 1:1,2:22674,3:3065,4:23,5:3422,6:345,7:3202,8:136,9:1426,10:15,1
+1:104
+ 40333 multiletter control sequences out of 65536+600000
+ 96 fonts using 19595011 bytes
+ 53i,12n,98p,669b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/shar
+e/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></home/veronica/.lo
+cal/share/fonts/Priory.otf></home/veronica/.local/share/fonts/exljbris - Calluna
+-Bold.otf></home/veronica/.local/share/fonts/exljbris - Calluna-Semibold.otf></h
+ome/veronica/.local/share/fonts/Greater Albion Typefounders - Vectis-Bold.otf></
+home/veronica/.local/share/fonts/exljbris - Calluna-Regular.otf></home/veronica/
+.local/share/fonts/exljbris - Calluna-It.otf>
+Output written on 2019corpuschristi.pdf (12 pages, 67814 bytes).
 
-warning  (pdf backend): no pages of output.
-
-PDF statistics: 0 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
