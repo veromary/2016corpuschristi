@@ -1,0 +1,115 @@
+1. Christus in coena turba cinctus duodéna
+Se tenet in manu, se cibat ille cibus.
+2. Te mérito, Christe, júbilans laudat chorus iste,
+Cui vitam
+initial-style: 0;
+%%
+c4 g hj j gf h , f d g g f d ec d ;
+fe d e gf dc e , e d f d c de e ::
+--
+cdc bc.. ::
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (seci)bat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+
+initial-style: 0;
+%%
+c4 g hj j gf h , f d g g f d ec d ;
+fe de gf dc e , ed f d c de e ::
+--
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+4. Fit (ca)ro de pane, vinum cru(or), hæc duo plane
+Chris(tus) discípulis (dat) memoránda suis.
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+4. Fit (ca)ro de pane, vinum cru(or), hæc duo plane
+Chris(tus) discípulis (dat) memoránda suis.
+5. Hic (ci)bus, hic potus causat, quod númine totus
+Su(mens) plenus erit, (si) bene credíderit.
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+4. Fit (ca)ro de pane, vinum cru(or), hæc duo plane
+Chris(tus) discípulis (dat) memoránda suis.
+5. Hic (ci)bus, hic potus causat, quod númine totus
+Su(mens) plenus erit, (si) bene credíderit.
+6. Si (cre)dis, co(mé)dis si, non sine luce recédis,
+Ergo (ci)bus vitæ (non) juvat absque fide.
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+4. Fit (ca)ro de pane, vinum cru(or), hæc duo plane
+Chris(tus) discípulis (dat) memoránda suis.
+5. Hic (ci)bus, hic potus causat, quod númine totus
+Su(mens) plenus erit, (si) bene credíderit.
+6. Si (cre)dis, co(mé)dis si, non sine luce recédis,
+Ergo (ci)bus vitæ (non) juvat absque fide.
+7. Cre(de) Deum Christum fore, qui (pa)nem dedit istum,
+Qui (ne)gat es(se) Deum, (mens) mala perdat eum.
+
+1. Christus in coena turba cinctus duodéna
+Se (tenet) in manu, (se) cibat ille cibus.
+2. Te (mé)rito, Christe, (jú)bilans laudat chorus iste,
+C(ui) vitam caro dat tu sancta caro.
+3. Sic (de)crevísti, sic páscere nos voluísti,
+Tu cum sis vita, (nos) pie pascis ita.
+4. Fit (ca)ro de pane, vinum cru(or), hæc duo plane
+Chris(tus) discípulis (dat) memoránda suis.
+5. Hic (ci)bus, hic potus causat, quod númine totus
+Su(mens) plenus erit, (si) bene credíderit.
+6. Si (cre)dis, co(mé)dis si, non sine luce recédis,
+Ergo (ci)bus vitæ (non) juvat absque fide.
+7. Cre(de) Deum Christum fore, qui (pa)nem dedit istum,
+Qui (ne)gat es(se) Deum, (mens) mala perdat eum.
+8. Qui (ca)pit indígne, judex se púniet igne,
+Qui digne (cá)piunt, (hi) bene profíciunt.
+
+9. Lum(bos) cin(gén)tes, (pé)dibus teguménta feréntes,
+9. Lum(bos) cin(gén)tes, (pé)dibus teguménta feréntes,
+Sint (bá)culi (má)nibus, (et) valet iste cibus.
+initial-style: 0;
+%%
+c4 g hj j gf h , f d g gf d ec d ;
+fe de gf dc e , ed f d c de e ::
+--
+
+9. Lum(bos) cin(gén)tes, (pé)dibus teguménta feréntes,
+Sint (bá)culi (má)nibus, (et) valet iste cibus.
+10. Cas(ta) caro, mundum sit cor, (cru)ce (cón)tere mundum,
+Sú(me)re tunc (po)téris, (quo) bene pastus eris.
+
+9. Lum(bos) cin(gén)tes, (pé)dibus teguménta feréntes,
+Sint (bá)culi (má)nibus, (et) valet iste cibus.
+10. Cas(ta) caro, mundum sit cor, (cru)ce (cón)tere mundum,
+Sú(me)re tunc (po)téris, (quo) bene pastus eris.
+11. Non (ca)ro (so)la cibbus dare (vi)tam (so)la nequíbo,
+So(lá)que quod (né)queo, (do) caro juncta Deo.
+
