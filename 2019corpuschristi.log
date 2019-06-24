@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.4.30)  16 JUN 2019 21:19
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.4.30)  17 JUN 2019 11:41
  restricted system commands enabled.
 **2019corpuschristi
 (./2019corpuschristi.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.075 seconds
+luaotfload | main : initialization completed in 0.106 seconds
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docum
 ent class
@@ -1305,12 +1305,12 @@ Sidefootvsep and sidefootheight: 13.6pt and 349.52011pt
 
 (./conf-hymns.tex
 \c@hymnNo=\count392
-Module gregoriotex Info: greciliae-hollow : gre@font@variant@B : rescaling greci
-liae-hollow to 1200000 on input line 54
 Module gregoriotex Info: greciliae-hole : gre@font@variant@C : rescaling grecili
 ae-hole to 1200000 on input line 54
 Module gregoriotex Info: greciliae : gre@font@variant@A : rescaling greciliae to
  1200000 on input line 54
+Module gregoriotex Info: greciliae-hollow : gre@font@variant@B : rescaling greci
+liae-hollow to 1200000 on input line 54
 )
 \firstlines@idxfile=\write5
 
@@ -1440,10 +1440,12 @@ Package grfext Info: Graphics extension search list:
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
-))
-Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 122
+)) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 127
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 122.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 127.
 
 Package fontspec Info: Could not resolve font "Calluna/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1478,26 +1480,35 @@ lnum;+smcp;"
 
 
 LaTeX Font Warning: Font shape `TU/Priory.otf(0)/bx/n' undefined
-(Font)              using `TU/Priory.otf(0)/m/n' instead on input line 130.
+(Font)              using `TU/Priory.otf(0)/m/n' instead on input line 135.
 
-Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 146
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 151
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 146.
-Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 149
+Package marginnote Info: xpos seems to be 136.26999pt on input line 151.
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 154
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 149.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 154.
 (./corpusChristi/PangeLingua.tex
-LaTeX Font Info:    Font shape `TU/Calluna(0)/m/sl' in size <10.95> not availabl
-e
-(Font)              Font shape `TU/Calluna(0)/m/it' tried instead on input line 
-17.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 13.
 
-]) (./corpusChristi/SingMyTongue.tex [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package marginnote Info: xpos seems to be 211.02048pt on input line 13.
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 27.
 
- [3])
-(./corpusChristi/JesusMyLord.tex
+Package marginnote Info: xpos seems to be 136.26999pt on input line 27.
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 40.
+
+Package marginnote Info: xpos seems to be 136.26999pt on input line 40.
+ [2]
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 53.
+
+Package marginnote Info: xpos seems to be 34.26999pt on input line 53.
+Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 66.
+
+Package marginnote Info: xpos seems to be 34.26999pt on input line 66.
+Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 79.
+
+Package marginnote Info: xpos seems to be 34.26999pt on input line 79.
+) (./corpusChristi/JesusMyLord.tex
 Overfull \hbox (11.70528pt too wide) in paragraph at lines 15--17
 []| | \TU/Calluna(0)/m/n/10.95 Oh, make us love Thee more and more.
  []
@@ -1507,136 +1518,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-) [4]
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 186
+LaTeX Font Info:    Font shape `TU/Calluna(0)/m/sl' in size <10.95> not availabl
+e
+(Font)              Font shape `TU/Calluna(0)/m/it' tried instead on input line 
+36.
+[3])
+Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 191
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 186.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 191.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.6347pt (A);
-(lettrine.sty)             reported on input line 186.
-Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 194
+(lettrine.sty)             reported on input line 191.
+
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+ [4]
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 201
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 194.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 201.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 19.20657pt (V);
-(lettrine.sty)             reported on input line 194.
-Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 207
+(lettrine.sty)             reported on input line 201.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 214
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 207.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 214.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.51639pt (I);
-(lettrine.sty)             reported on input line 207.
-Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 217
+(lettrine.sty)             reported on input line 214.
+Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 227
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 217.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 227.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.65443pt (P);
-(lettrine.sty)             reported on input line 217.
- [5]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 227
+(lettrine.sty)             reported on input line 227.
+Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 237
 .
-Package marginnote Info: xpos seems to be 136.26999pt on input line 227.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 237.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 17.94453pt (O);
-(lettrine.sty)             reported on input line 227.
-Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 237
+(lettrine.sty)             reported on input line 237.
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [5]
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 249
 .
-Package marginnote Info: xpos seems to be 136.26999pt on input line 237.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 249.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.79247pt (J);
-(lettrine.sty)             reported on input line 237.
-Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 249
+(lettrine.sty)             reported on input line 249.
+Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 261
 .
-Package marginnote Info: xpos seems to be 136.26999pt on input line 249.
- (./gabc/salveregina-5_1_1.gtex
+Package marginnote Info: xpos seems to be 136.26999pt on input line 261.
+
+(./gabc/salveregina-5_1_1.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 
 LaTeX Font Warning: Font shape `TU/Calluna(0)/bx/it' undefined
 (Font)              using `TU/Calluna(0)/bx/n' instead on input line 17.
 
-[6]
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 255
+Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 267
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 255.
-Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 266
+Package marginnote Info: xpos seems to be 136.26999pt on input line 267.
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [6]
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 278
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 266.
-Package marginnote Info: Margin note 7.3 is on absolute page 7 on input line 270
+Package marginnote Info: xpos seems to be 34.26999pt on input line 278.
+Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 282
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 270.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 282.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.79247pt (D);
-(lettrine.sty)             reported on input line 271.
+(lettrine.sty)             reported on input line 283.
 
-Overfull \hbox (1.05054pt too wide) in paragraph at lines 271--273
+Overfull \hbox (1.05054pt too wide) in paragraph at lines 283--285
 \TU/Calluna(0)/m/n/10.95 mur. Per eun-dem Chri-stum Do-mi-num no-strum. Amen.
  []
 
-Package marginnote Info: Margin note 7.4 is on absolute page 7 on input line 283
+Package marginnote Info: Margin note 7.3 is on absolute page 7 on input line 298
 .
-Package marginnote Info: xpos seems to be 34.26999pt on input line 283.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 298.
 (./gabc/salvefesta-5_1_1.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'. [7]
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 294
+Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 305
 .
-Package marginnote Info: xpos seems to be 136.26999pt on input line 294.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 305.
+Package marginnote Info: Margin note 8.2 is on absolute page 8 on input line 328
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 328.
+Package marginnote Info: Margin note 8.3 is on absolute page 8 on input line 335
+.
+Package marginnote Info: xpos seems to be 136.26999pt on input line 335.
+Package marginnote Info: Margin note 8.4 is on absolute page 9 on input line 340
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 340.
  [8]
-Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 317
-.
-Package marginnote Info: xpos seems to be 34.26999pt on input line 317.
-Package marginnote Info: Margin note 9.2 is on absolute page 9 on input line 324
-.
-Package marginnote Info: xpos seems to be 34.26999pt on input line 324.
-Package marginnote Info: Margin note 9.3 is on absolute page 9 on input line 329
-.
-Package marginnote Info: xpos seems to be 34.26999pt on input line 329.
 Package lettrine.sty Info: Targeted height = 18.91075pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 18.79247pt (D);
-(lettrine.sty)             reported on input line 332.
- [9]
-Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 3
-63.
-Package marginnote Info: xpos seems to be 136.26999pt on input line 363.
-Package marginnote Info: Margin note 10.2 is on absolute page 10 on input line 3
-68.
-Package marginnote Info: xpos seems to be 136.26999pt on input line 368.
+(lettrine.sty)             reported on input line 343.
+Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 374
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 374.
+Package marginnote Info: Margin note 9.2 is on absolute page 9 on input line 379
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 379.
 
-Overfull \hbox (1.16557pt too wide) in paragraph at lines 368--369
+Overfull \hbox (1.16557pt too wide) in paragraph at lines 379--380
 []\TU/Calluna(0)/m/n/10.95 Laudáte Dóminum omnes gen-tes: * laudáte eum omne
 s
  []
 
-Package marginnote Info: Margin note 10.3 is on absolute page 10 on input line 3
-71.
-Package marginnote Info: xpos seems to be 136.26999pt on input line 371.
-Package marginnote Info: Margin note 10.4 is on absolute page 10 on input line 3
-77.
-Package marginnote Info: xpos seems to be 136.26999pt on input line 377.
-Package marginnote Info: Margin note 10.5 is on absolute page 10 on input line 3
-85.
-Package marginnote Info: xpos seems to be 136.26999pt on input line 385.
-(./corpusChristi/SoulOfMy.tex
+Package marginnote Info: Margin note 9.3 is on absolute page 9 on input line 382
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 382.
+Package marginnote Info: Margin note 9.4 is on absolute page 9 on input line 388
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 388.
+Package marginnote Info: Margin note 9.5 is on absolute page 9 on input line 396
+.
+Package marginnote Info: xpos seems to be 34.26999pt on input line 396.
+(./corpusChristi/SoulOfMy.tex [9]
 Overfull \hbox (3.97461pt too wide) in paragraph at lines 17--17
 []\TU/Calluna(0)/m/n/10.95 In death’s dread mo-ments, make me only Thine; [] 
 
  []
 
-) (./corpusChristi/OBreadofHeaven.tex [10]) (./corpusChristi/SweetSacrament.tex
-[11]) [12] (./2019corpuschristi.aux)
+) (./corpusChristi/OBreadofHeaven.tex
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [10])
+(./corpusChristi/SweetSacrament.tex [11]) [12] (./2019corpuschristi.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1644,24 +1672,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Here is how much of LuaTeX's memory you used:
  36958 strings out of 494383
- 244157,794899 words of node,token memory allocated
- 93693 words of node memory still in use:
-   3154 hlist, 402 vlist, 1591 rule, 3 disc, 3 local_par, 1984 glue, 1992 kern, 
-396 penalty, 833 glyph, 7220 attribute, 215 glue_spec, 1218 attribute_list, 2 wr
-ite, 1 user_defined, 4 pdf_colorstack nodes
-   avail lists: 1:1,2:22674,3:3065,4:23,5:3422,6:345,7:3202,8:136,9:1426,10:15,1
-1:104
- 40333 multiletter control sequences out of 65536+600000
- 96 fonts using 19595011 bytes
+ 195345,794899 words of node,token memory allocated
+ 93160 words of node memory still in use:
+   3150 hlist, 398 vlist, 1591 rule, 1 local_par, 1974 glue, 1986 kern, 394 pena
+lty, 791 glyph, 7216 attribute, 215 glue_spec, 1214 attribute_list, 2 write, 1 u
+ser_defined, 4 pdf_colorstack nodes
+   avail lists: 2:18135,3:2474,4:22,5:2731,6:268,7:2864,8:109,9:1138,10:15,11:11
+5
+ 40342 multiletter control sequences out of 65536+600000
+ 96 fonts using 19594375 bytes
  53i,12n,98p,669b,446s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/shar
 e/texmf-dist/fonts/truetype/public/gregoriotex/greciliae.ttf></home/veronica/.lo
-cal/share/fonts/Priory.otf></home/veronica/.local/share/fonts/exljbris - Calluna
--Bold.otf></home/veronica/.local/share/fonts/exljbris - Calluna-Semibold.otf></h
-ome/veronica/.local/share/fonts/Greater Albion Typefounders - Vectis-Bold.otf></
-home/veronica/.local/share/fonts/exljbris - Calluna-Regular.otf></home/veronica/
-.local/share/fonts/exljbris - Calluna-It.otf>
-Output written on 2019corpuschristi.pdf (12 pages, 67814 bytes).
+cal/share/fonts/exljbris - Calluna-It.otf></home/veronica/.local/share/fonts/Pri
+ory.otf></home/veronica/.local/share/fonts/exljbris - Calluna-Bold.otf></home/ve
+ronica/.local/share/fonts/exljbris - Calluna-Semibold.otf></home/veronica/.local
+/share/fonts/exljbris - Calluna-Regular.otf></home/veronica/.local/share/fonts/G
+reater Albion Typefounders - Vectis-Bold.otf>
+Output written on 2019corpuschristi.pdf (12 pages, 67594 bytes).
 
 PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
