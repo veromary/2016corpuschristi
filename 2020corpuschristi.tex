@@ -1,0 +1,473 @@
+\documentclass[a5paper,11pt,twoside,openany]{memoir}
+\usepackage[british,latin]{babel}
+\usepackage{lettrine}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setsansfont{Calluna Sans}
+\setmainfont{Calluna}
+\newfontfamily{\semibf}{Calluna-Semibold}
+\newfontfamily{\anavio}{Priory.otf}
+\newfontfamily{\vectis}{Vectis Bold}
+\newfontfamily{\libertine}{Linux Libertine O}
+\newfontface{\versicles}{Versiculum}
+\usepackage{makeidx}
+%\usepackage{index}
+%\usepackage{westmindex}
+%\usepackage{mparhack}
+%\usepackage{verse}
+\usepackage{rotating}
+\usepackage{paracol}
+\usepackage{multicol}
+\usepackage{fncylab}
+%\usepackage{hanging}
+\usepackage{graphicx}
+\usepackage[autocompile]{gregoriotex}
+\usepackage{marginnote}
+\settypeblocksize{170mm}{88mm}{*}
+\setulmargins{*}{*}{1.618}
+\setlrmargins{*}{*}{4}
+\setheadfoot{\onelineskip}{2\onelineskip}
+\setheaderspaces{*}{.8\onelineskip}{*}
+\checkandfixthelayout
+
+\input conf-hymns.tex
+
+\grechangedim{baselineskip}{5pt}{scalable}
+
+\setlength{\parindent}{0pt}
+
+\makeindex[firstlines]
+\makeindex[sources]
+\onecolindextrue
+\newcommand\firstlindex[1]{\specialindex{firstlines}{hymnNo}{#1|upnums}}
+
+\newcommand\chaphead{}
+\makepsmarks{headings}{%
+ \def\chaptermark##1{\markboth{##1}{##1}}% left and right marks
+ \def\sectionmark##1{\markright{##1}}
+}
+
+\makeevenhead{headings}{\thepage}{\scshape\leftmark}{}
+%\renewcommand*{\chapterpagestyle}{scrplain}%is there a reason for the *?
+\pagestyle{headings}
+%
+
+\pretitle{\begin{center}\HUGE\anavio\MakeUppercase}
+\posttitle{\par\end{center}\vskip0.5em}
+
+\makechapterstyle{stMary}{
+\renewcommand\beforechapskip{30pt}
+\renewcommand\midchapskip{0pt}
+\renewcommand\afterchapskip{20pt}
+\renewcommand\chapternamenum{}
+\renewcommand\printchaptername{}
+\renewcommand\printchapternum{}
+\renewcommand\chaptitlefont{\semibf\huge\scshape\centering}
+}
+\chapterstyle{stMary}
+
+%
+% chapters need numbers for fancytabs to work
+% try this to turn off section numbers
+%
+\setsecnumdepth{chapter}
+
+\setsecheadstyle{\semibf\LARGE\scshape\centering}
+\setsubsecheadstyle{\semibf\Large\scshape\centering}
+\setsubsubsecheadstyle{\large\scshape\centering}
+
+
+
+
+%\includeonly{devotions}
+
+\begin{document}
+\pagenumbering{arabic}
+\selectlanguage{british}
+
+\labelformat{hymnNo}{\upnums{#1}}
+
+\title{Corpus Christi Procession}
+
+\pagestyle{empty}
+
+\ 
+
+\bigskip
+
+\ 
+
+\begin{center}
+
+\huge \vectis Corpus Christi Procession
+
+\end{center}
+
+\ 
+
+\bigskip
+
+\ 
+
+\vfill
+
+\eject
+
+\section{Exposition}
+
+\marginnote{\footnotesize O, saving Victim, %
+ Who openest the gate of heaven, %
+    Hostile wars press, %
+    Give strength; bear aid. % 
+ %
+    To the Triune Lord, %
+    May there be everlasting glory; %
+    that life without end %
+    He may give to us in our homeland. %
+    Amen. }[2cm]
+\newHymn
+
+\FirstLine{O salutaris Hostia}
+
+
+\begin{verse}[\versewidth]
+
+\FirstVerse{O}{ salutaris} Hóstia\\*
+Quae coeli pandis óstium\\*
+Bella premunt hostília\\*
+Da robur fer auxílium.
+
+Uni trinóque Dómino\\*
+Sit sempitérna glória\\*
+Qui vitam sine término\\*
+Nobis donet in pátria.
+
+\end{verse}
+
+
+\section{Procession}
+
+\marginnote{\footnotesize Let us proceed in peace}
+\qquad \textbf{Priest:} Procedamus in pace
+
+\marginnote{\footnotesize In the name of Christ. Amen.}
+\qquad \textbf{All:} In nomine Christi. Amen.
+
+%\eject
+
+\pagestyle{headings}
+%\input corpusChristi/PangeLingua
+
+
+\newHymn
+\FirstLine{Pange, lingua, gloriosi}
+
+
+\begin{verse}[\versewidth]
+
+\marginnote{\footnotesize Sing my tongue the Saviour's glory
+	Of His flesh the mystery sing;
+Of the Blood, all price exceeding,
+Shed by our immortal King,
+Destined, for the world's redemption, 
+From a noble womb to spring.}
+\FirstVerse{P}{ange,} lingua, gloriósi\\
+Córporis mystérium,    \\
+Sanguinísque pretiósi,   \\  
+Quem in mundi prétium    \\
+Fructus ventris generósi   \\
+Rex effúdit Géntium.        
+%\pointtrans                            
+
+\marginnote{\footnotesize Of a pure and spotless Virgin
+Born for us on earth below,
+He, as Man, with man conversing,
+Stayed, the seeds of truth to sow;  
+Then He closed in solemn order
+Wondrously His life of woe.}
+\flagverse{2}Nobis datus, nobis natus   \\
+Ex intácta Vírgine,        \\
+Et in mundo conversátus,   \\
+Sparso verbi sémine,       \\
+Sui moras incolátus        \\
+Miro clausit órdine.
+                  
+\marginnote{\footnotesize On the night of that Last Supper,
+Seated with His chosen band,  
+He the Pascal victim eating,  
+First fulfills the Law's command; 
+Then as Food to His Apostles  
+Gives Himself with His own hand.}
+\flagverse{3}In suprémae nocte coenae    \\
+Recúmbens cum frátribus    \\
+Observáta lege plene       \\
+Cibis in legálibus,        \\
+Cibum turbae duodénae      \\
+Se dat suis mánibus.        
+
+\marginnote{\footnotesize Word-made-Flesh, the bread of nature
+By His word to Flesh He turns;
+Wine into His Blood He changes;--- 
+What though sense no change discerns? 
+Only be the heart in earnest, 
+Faith her lesson quickly learns.}
+\flagverse{4}Verbum caro, panem verum\\   
+Verbo carnem éfficit:      \\
+Fitque sanguis Christi merum,\\
+Et si sensus déficit,      \\
+Ad firmándum cor sincérum  \\
+Sola fides súfficit.        
+
+\end{verse}
+
+\Hpoet{St.~Thomas Aquinas}{1225--74}
+
+%\input corpusChristi/SingMyTongue
+
+\input corpusChristi/JesusMyLord
+
+\section{Rosary}
+
+I believe in God,
+the Father almighty,
+Creator of heaven and earth,
+and in Jesus Christ, his only Son, our Lord,
+who was conceived by the Holy Spirit,
+born of the Virgin Mary,
+suffered under Pontius Pilate,
+was crucified, died and was buried;
+He descended into hell;
+on the third day he rose again from the dead;
+He ascended into heaven,
+and is seated at the right hand of God the Father almighty;
+from there he will come to judge the living and the dead.
+I believe in the Holy Spirit,
+the holy catholic Church,
+the communion of saints,
+the forgiveness of sins,
+the resurrection of the body,
+and life everlasting. Amen.
+
+Our Father. Hail Mary, thrice.
+Glory be.
+
+\marginnote{\footnotesize Hidden God, devoutly I adore Thee, truly present underneath these veils: all my heart subdues itself before Thee, since it all before Thee faints and fails.}
+\lettrine{A}{doro} (te) devóte, latens Déitas,\\*
+     Quae sub his figúris vere látitas;  \\*  
+     Tibi se cor meum totum súbjicit,     \\*
+    Quia te contémplans totum déficit.    
+ 
+    \eject
+
+\subsection{1st Decade: Resurrection}
+
+\marginnote{\footnotesize Not to sight, or taste, or touch be credit hearing only do we trust secure; I believe, for God the Son has said it- Word of truth that ever shall endure.}
+\lettrine{V}{isus,} tactus, gustus in te fállitur,  \\*
+      Sed audítu solo tuto créditur.      \\*
+     Credo quidquid dixit Dei Fílius;     \\*
+      Nil hoc verbo veritátis vérius.     
+
+\bigskip
+
+Our Father. Hail Mary, ten times. Glory be.
+
+
+\subsection{2nd Decade: Ascension}
+
+\marginnote{\footnotesize On the cross was veiled Thy Godhead's splendor, here Thy manhood lies hidden too; unto both alike my faith I render, and, as sued the contrite thief, I sue.}
+\lettrine{I}{n cruce} latébat sola Déitas,      \\*
+     At hic latet simul et Humánitas,     \\*
+    Ambo tamen credens atque cónfitens,   \\*
+     Peto quod petívit latro paénitens. 
+
+Our Father. Hail Mary, ten times. Glory be.
+
+
+%\eject
+
+\subsection{3rd Dec.: Descent ofthe Holy Ghost}
+
+\marginnote{\footnotesize Though I look not on Thy wounds with Thomas, Thee, my Lord, and Thee, my God, I call: make me more and more believe Thy promise, hope in Thee, and love Thee over all.}
+\lettrine{P}{lagas,} sicut Thomas, non intúeor:    \\*
+       Deum tamen meum te confíteor.      \\*
+     Fac me tibi semper magis crédere,    \\*
+     In te spem habére, te dilígere.      
+
+Our Father. Hail Mary, ten times. Glory be.
+
+\subsection{4th Decade: Assumption of Our Lady}
+
+\marginnote{\footnotesize O memorial of my Savior dying, Living Bread, that gives life to man; make my soul, its life from Thee supplying, taste Thy sweetness, as on earth it can.}
+\lettrine{O}{ memoriále} mortis Dómini!\\*
+    Panis vivus, vitam praéstans hómini!\\*
+      Praesta meae menti de te vívere,     \\* 
+      Et te illi semper dulce sápere.     
+
+Our Father. Hail Mary, ten times. Glory be.
+
+\eject
+
+\subsection{5th Decade: Coronation of Our Lady}
+
+\marginnote{\footnotesize Contemplating, Lord, Thy hidden presence, grant me what I thirst for and implore, in the revelation of Thy essence to behold Thy glory evermore.}
+\lettrine{J}{esu,} quem velátum nunc aspício,\\*
+      Oro, fiat illud quod tam sítio:  \\*   
+       Ut te reveláta cernens fácie,     \\* 
+     Visu sim beátus tuae glóriae. 
+
+Our Father. Hail Mary, ten times. Glory be.
+
+\Hpoet{St.~Thomas Aquinas}{1225--74}
+\Htrans{John O'Hagan}{1822--1890}
+
+
+\marginnote{\footnotesize Hail Holy Queen, Mother of mercy.  Hail! Our life, our sweetness and our hope! To thee do we cry, poor, banished children of Eve.  To thee do we send up our sighs, mourning and weeping in this valley of tears.  Turn then, most gracious advocate, thine eyes of mercy towards us.  And after this our exile show unto us the blessed fruit of thy womb, Jesus.  O clement, O loving, O sweet virgin Mary!}
+\grechangestyle{initial}{\fontsize{24}{24}\anavio\selectfont}
+\gregorioscore[a]{gabc/salveregina.tex}
+
+
+\ 
+
+\marginnote{\footnotesize Pray for us, O holy Mother of God. That we may be made worthy of the promises of Christ.}[-1cm]
+
+\Vbar . Ora pro nobis sancta Dei Genetrix.
+
+\Rbar . Ut digni efficiamur promissionibus Christi.
+
+\eject
+
+%\bigskip
+
+\marginnote{\footnotesize Let us pray.}
+Oremus.
+
+
+\marginnote{\footnotesize O God, Who by the life, death, and resurrection of Thy only-begotten Son, hath purchased for us the rewards of eternal salvation, grant, we beseech Thee, that meditating on these mysteries of the most holy Rosary of the Blessed Virgin Mary, we may imitate what they contain and obtain what they promise, through the same Christ our Lord. Amen.}
+\selectlanguage{latin}
+\lettrine{D}{eus} cuius Unigenitus per vitam, mortem et resurrectionem suam nobis salutis aeternae praemia comparavit, concede, quaesumus: ut haec mysteria sacratissimo beatae Mariae Virginis Rosario recolentes, et imitemur quod continent, et quod promittunt assequamur. Per eundem Christum Dominum nostrum. Amen. 
+\selectlanguage{british}
+
+%\input corpusChristi/JesusMyLord
+%\input corpusChristi/PangeLingua
+
+%\input corpusChristi/SingMyTongue
+
+\marginnote{\footnotesize 1. Hail, festal day, venerable of all ages
+	By which God conquers hell and holds the stars.
+2. Behold, it declares grace for a reborn world
+All gifts have returned with their Lord.
+3. For indeed, after hellish sorrows, to the triumphing Christ:
+grove with green and buds with flower, everywhere give laud.
+4. The Crucified One was God, behold He reigns over all things, 
+and all creation offers prayer to its Creator.}[1.5cm]
+\gregorioscore{gabc/salvefesta}
+\marginnote{\footnotesize 5. O Christ, the salvation of all things,
+good Creator and Redeemer, only begotten Son of God the Father.
+6. You Who, seeing mankind to have plunged to the deep,
+that you might save man, were also made man.
+7. That Thou, the author of life and the world, might open
+the way of death and the grave by giving hope of salvation.}[-5cm]
+\section{Benediction}
+
+\begin{verse}
+\flagverse{5}Tantum ergo Sacraméntum     \\*
+Venerémur cérnui:           \\
+Et antíquum documéntum      \\*
+Novo cedat rítui:           \\
+Praestet fides suppleméntum \\*
+Sénsuum deféctui.           
+
+\flagverse{6}Genitóri, Genitóque         \\*
+Laus et jubilátio,          \\
+Salus, honor, virtus quoque \\*
+Sit et benedíctio:          \\
+Procedénti ab utróque       \\*
+Compar sit laudátio.
+Amen. %Alleluia.             
+
+\end{verse}
+
+
+\marginnote{\footnotesize Thou hast given them bread from heaven. Having in itself all delight.}
+\Vbar . Panem de coelo prae\-sti\-tísti eis. 
+
+\Rbar . Omne delectaméntum in se ha\-bén\-tum. 
+
+\bigskip
+
+\marginnote{\footnotesize Let us pray.}
+Orémus
+
+
+\marginnote{\footnotesize O God, Who, under a wonderful \parfillskip=0pt Sacrament, hast left us a memorial of Thy Passion; grant us, we beseech Thee, so to venerate the sacred mysteries of Thy Body and Blood, that we may ever feel within us the fruit of Thy redemption. %
+Who livest and reignest, world without end. Amen.}
+
+
+\selectlanguage{latin}
+\lettrine{D}{eus,} qui pro nobis sub Sacraménto mirábili passiónis tuae memóriam re\-li\-quísti : tríbue quaésumus, ita nos córporis et sánguinis tui sacra mystéria venerári, ut redemptiónis tuae fructum in nobis júgiter
+sentiámus.  Qui vivis et regnas in saecula saeculorum. \Rbar . Amen.
+\selectlanguage{british}
+
+\heading{The Divine Praises}
+
+Blessed be God.\\
+Blessed be His Holy Name.\\
+Blessed be Jesus Christ, true God and true man.\\
+Blessed be the name of Jesus.\\
+Blessed be His Most Sacred Heart.\\
+Blessed be His Most Precious Blood.\\
+Blessed be Jesus in the most Holy Sacrament of the Altar.\\
+Blessed be the Holy Spirit, the Paraclete.\\
+Blessed be the great Mother of God, Mary most holy.\\
+Blessed be her holy and Immaculate Conception.\\
+Blessed be her glorious Assumption.\\
+Blessed be the name of Mary, Virgin and Mother.\\
+Blessed be Saint Joseph, her most chaste spouse.\\
+Blessed be God in His angels and in His saints.
+
+\bigskip
+
+
+\newHymn
+
+\HymnTitleit{Adoremus in aeternum}
+
+\bigskip
+
+\marginnote{\footnotesize Let us adore forever the most holy Sacrament.}
+Adorémus in aetérnum sanctíssimum sacraméntum.
+
+\bigskip
+
+\marginnote{\footnotesize Praise the Lord all you nations, praise Him all you peoples.}
+Laudáte Dóminum omnes gen\-tes: * laudáte eum omnes pópuli.
+
+\marginnote{\footnotesize For His Mercy is confirmed upon us, and the truth of the Lord endures eternally.}
+Quóniam confirmáta est super nos, misericórdia eius: * et véritas Dómini
+manet in aetérnum.
+
+\smallskip
+
+\marginnote{\footnotesize Glory be to the Father and to the Son and to the Holy Spirit. As it was in the beginning, is now and ever shall be, world without end. Amen.}
+Glória Patri et Fílio, * et Spirítui Sancto.
+
+Sicut erat in princípio, et nunc et semper, * et in saécula saeculórum.
+Amen.
+
+\bigskip
+
+\marginnote{\footnotesize Let us adore forever the most holy Sacrament.}
+Adorémus in aetérnam sanctíssimum sacraméntum.
+
+\section{Extra Hymns}
+
+\input corpusChristi/SoulOfMy
+
+
+\input corpusChristi/OBreadofHeaven
+
+\input corpusChristi/SweetSacrament
+
+%\input corpusChristi/AveVerum
+
+\end{document}
