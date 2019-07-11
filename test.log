@@ -1,42 +1,42 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.4.30)  24 JUN 2019 17:25
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.8)  11 JUL 2019 19:14
  restricted system commands enabled.
-**test
-(./test.tex
+**gabc/test
+(./gabc/test.tex
 LaTeX2e <2018-12-01>
-Lua module: luaotfload-main 2019-01-28 2.95 luaotfload entry point
-Lua module: luaotfload-init 2019-01-28 2.95 luaotfload submodule / initializatio
+Lua module: luaotfload-main 2019-02-14 2.96 luaotfload entry point
+Lua module: luaotfload-init 2019-02-14 2.96 luaotfload submodule / initializatio
 n
-Lua module: lualibs 2019-01-28 2.63 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2019-01-28 2.63 ConTeXt Lua libraries -- extended c
+Lua module: lualibs 2019-02-14 2.64 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-02-14 2.64 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2019-01-28 2.95 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2019-01-28 2.95 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2019-01-28 2.95 luaotfload submodule / conf
+Lua module: luaotfload-log 2019-02-14 2.96 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-02-14 2.96 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-02-14 2.96 luaotfload submodule / conf
 ig file reader
 luaotfload | conf : Root cache directory is /home/veronica/.texlive/texmf-var/lu
 atex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2019-01-28.lua” from kpse
--resolved path “/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2019-01
--28.lua”.
+luaotfload | init : Loading fontloader “fontloader-2019-02-14.lua” from kpse
+-resolved path “/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2019-02
+-14.lua”.
 Lua-only attribute luaotfload@state = 1
 Lua-only attribute luaotfload@noligature = 2
 Lua-only attribute luaotfload@syllabe = 3
 luaotfload | init : Context OpenType loader version “3.107”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2019-01-28 2.95 luaotfload submodule / callback h
+Lua module: luaotfload-loaders 2019-02-14 2.96 luaotfload submodule / callback h
 andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2019-01-28 2.95 luaotfload submodule / database
-Lua module: luaotfload-colors 2019-01-28 2.95 luaotfload submodule / color
+Lua module: luaotfload-database 2019-02-14 2.96 luaotfload submodule / database
+Lua module: luaotfload-colors 2019-02-14 2.96 luaotfload submodule / color
 Lua-only attribute luaotfload_color_attribute = 4
-Lua module: luaotfload-resolvers 2019-01-28 2.95 luaotfload submodule / resolver
+Lua module: luaotfload-resolvers 2019-02-14 2.96 luaotfload submodule / resolver
 s
 luaotfload | conf : Root cache directory is /home/veronica/.texlive/texmf-var/lu
 atex-cache/generic/names.
-Lua module: luaotfload-features 2019-01-28 2.95 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2019-01-28 2.95 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2019-01-28 2.95 luaotfload submodule / auxiliar
+Lua module: luaotfload-features 2019-02-14 2.96 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-02-14 2.96 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-02-14 2.96 luaotfload submodule / auxiliar
 y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
@@ -48,13 +48,13 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.076 seconds
+luaotfload | main : initialization completed in 0.063 seconds
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /home/veronica/.texlive/texmf-
-var/luatex-cache/generic/names/luaotfload-names.luc)
+var/luatex-cache/generic/names/luaotfload-names.lua.gz)
 \c@part=\count80
 \c@section=\count81
 \c@subsection=\count82
@@ -68,7 +68,7 @@ var/luatex-cache/generic/names/luaotfload-names.luc)
 \bibindent=\dimen102
 )
 (/usr/share/texmf-dist/tex/lualatex/gregoriotex/gregoriotex.sty
-Package: gregoriotex 2018/03/25 v5.1.1 GregorioTeX system.
+Package: gregoriotex 2019/03/10 v5.2.0 GregorioTeX system.
 
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -142,12 +142,13 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \CatcodeTableExpl=\catcodetable6
 )
 (/usr/share/texmf-dist/tex/luatex/luamplib/luamplib.sty
-Package: luamplib 2018/09/27 v2.12.5 mplib package for LuaTeX
-Lua module: luamplib 2018/09/27 2.12.5 Lua package to typeset Metapost with LuaT
+Package: luamplib 2019/03/26 v2.20.1 mplib package for LuaTeX
+Lua module: luamplib 2019/03/26 2.20.1 Lua package to typeset Metapost with LuaT
 eX's MPLib.
 \mplibstartlineno=\count89
-\everymplibtoks=\toks15
-\everyendmplibtoks=\toks16
+\mplibtmptoks=\toks15
+\everymplibtoks=\toks16
+\everyendmplibtoks=\toks17
 \mplibscratchbox=\box27
 )
 (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
@@ -167,12 +168,11 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 \gre@attr@glyph@bottom=\attribute10
 \gre@attr@syllable@id=\attribute11
 \gre@atletter=\catcodetable7
-Lua module: gregoriotex 2018/03/25 5.1.1 GregorioTeX module.
+Lua module: gregoriotex 2019/03/10 5.2.0 GregorioTeX module.
 Custom whatsit marker = 1
 Module gregoriotex Info: marker whatsit id is 1 on input line 131
 
 (test.gaux)
-Module gregoriotex Info: Reading test.gaux on input line 135
 Inserting `gregoriotex.write_greaux' at position 1 in `finish_pdffile'.
 \gre@gaux=\write3
 \gre@read@temp=\read1
@@ -301,7 +301,7 @@ ariant@B. on input line 993
 Module gregoriotex Info: Registering variant font greciliae-hole as gre@font@var
 iant@C. on input line 993
 luaotfload | cache : Lookup cache loaded from /home/veronica/.texlive/texmf-var/
-luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luatex-cache/generic/names/luaotfload-lookup-cache.lua.
 Module gregoriotex Info: Mapping font greciliae on input line 998
 Module gregoriotex Info: Mapping font greciliae-hollow on input line 998
 Module gregoriotex Info: Mapping font greciliae-hole on input line 998
@@ -345,9 +345,9 @@ Module gregoriotex Info: Registering variant font greextra as gre@font@variant@D
 )
 (/usr/share/texmf-dist/tex/luatex/gregoriotex/gsp-default.tex)
 (/usr/share/texmf-dist/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
-(./test.aux)
-\openout1 = test.aux
+No file test.aux.
 
+\openout1 = test.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -362,19 +362,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count146
 \scratchdimen=\dimen157
 \scratchbox=\box41
 \nofMPsegments=\count147
 \nofMParguments=\count148
-\everyMPshowfont=\toks17
+\everyMPshowfont=\toks18
 \MPscratchCnt=\count149
 \MPscratchDim=\dimen158
 \MPnumerator=\count150
 \makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks18
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -394,7 +394,7 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks19
+\pdftexcmds@toks=\toks20
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
@@ -407,49 +407,41 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-Module gregoriotex Info: salvefestacorpuschristi.gabc has been modified and salv
-efestacorpuschristi-5_1_1.gtex needs to be updated. Recompiling the gabc file. o
-n input line 6
-Module gregoriotex Info: compiling the score salvefestacorpuschristi.gabc... on 
-input line 6
-Module gregoriotex Info: will use gregorio on input line 6
+Module gregoriotex Info: The file salvefestacorpuschristi-5_2_0.gtex does not ex
+ist. Searching for a gabc file on input line 6
+/usr/share/texmf-dist/tex/latex/base/ltluatex.lua:109: 
+Module gregoriotex Error: The file salvefestacorpuschristi.gabc does not exist. 
+on input line 6
 
-Module gregoriotex Warning: warning:no name specified, put `name:...;' at the be
-ginning of the file, can be dangerous with some output formats on input line 6
-Module gregoriotex Warning: *** end of warnings for salvefestacorpuschristi.gabc
- *** on input line 6
-(./salvefestacorpuschristi-5_1_1.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'. [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [2] (./test.aux))
-
+stack traceback:
+	[C]: in function 'error'
+	/usr/share/texmf-dist/tex/latex/base/ltluatex.lua:109: in function </usr/share/
+texmf-dist/tex/latex/base/ltluatex.lua:108>
+	(...tail calls...)
+	.../share/texmf-dist/tex/luatex/gregoriotex/gregoriotex.lua:895: in field 'incl
+ude_score'
+	[\directlua]:1: in main chunk.
+\gre@gregorioscore ...allowdeprecated@asboolean )}
+                                                  \or \gre@debugmsg {compile...
+l.6 \gregorioscore{salvefestacorpuschristi}
+                                         
+? 
+(./test.aux))
 
 Here is how much of LuaTeX's memory you used:
- 19713 strings out of 494383
- 244167,319454 words of node,token memory allocated
- 94327 words of node memory still in use:
-   3226 hlist, 406 vlist, 1621 rule, 3 local_par, 2019 glue, 2029 kern, 402 pena
-lty, 811 glyph, 7317 attribute, 67 glue_spec, 1225 attribute_list, 1 write, 1 us
-er_defined nodes
-   avail lists: 1:2,2:28522,3:3888,4:150,5:4080,6:409,7:3959,8:81,9:1639,10:142
- 23750 multiletter control sequences out of 65536+600000
- 23 fonts using 3960879 bytes
- 37i,5n,60p,582b,303s stack positions out of 5000i,500n,10000p,200000b,100000s
-Module gregoriotex Info: Writing test.gaux on input line 0
-Module gregoriotex Warning: Line heights or variable brace lengths may have chan
-ged. Rerun to fix. on input line 0
-</usr/share/texmf-dist/fonts/truetype/public/gregoriotex/greextra.ttf></usr/shar
-e/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf-dis
-t/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/tr
-uetype/public/gregoriotex/greciliae.ttf></usr/share/texmf-dist/fonts/opentype/pu
-blic/lm/lmroman17-regular.otf>
-Output written on test.pdf (2 pages, 25302 bytes).
+ 19732 strings out of 494300
+ 100000,319454 words of node,token memory allocated
+ 412 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 7 attribute, 45 glue_spec,
+ 7 attribute_list, 2 write, 1 user_defined, 1 pdf_colorstack nodes
+   avail lists: 2:7,3:1,4:1,5:4,7:1,9:1
+ 23812 multiletter control sequences out of 65536+600000
+ 19 fonts using 3435807 bytes
+ 37i,1n,37p,587b,53s stack positions out of 5000i,500n,10000p,200000b,100000s
 
-PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+warning  (pdf backend): no pages of output.
+
+PDF statistics: 0 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
